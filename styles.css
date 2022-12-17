@@ -36,12 +36,24 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 520px) {
-  .mc-field-group input {
-    width: 100vw;
+@media screen and (max-width: 768px) {
+  #mc-embedded-subscribe-form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* 
+  .mc-field-group {
+    width: 900px;
+  } */
+
+  .mc-field-group #mce-EMAIL {
+    width: 500px;
+    margin: 0 auto;
   }
 
   .optionalParent {
-    width: 80%;
+    width: 60%;
   }
+
 }
