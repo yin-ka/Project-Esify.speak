@@ -27,6 +27,21 @@
   padding-top: 0;
 }
 
-#mc-embedded-subscribe {
+.optionalParent {
+  width: 20%;
   margin: 0 auto;
+}
+
+.optionalParent .clear {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 520px) {
+  .mc-field-group input {
+    width: 100vw;
+  }
+
+  .optionalParent {
+    width: 80%;
+  }
 }
